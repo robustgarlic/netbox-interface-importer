@@ -39,7 +39,7 @@ For those who would like some guidance on setting on an environment for this jus
 >`export NET_TEXTFSM="~/netbox-interface-importer/ntc-templates/templates"`
 >`echo $NET_TEXTFSM`
  5. Change the environment variables in the python script themselves, this is your json inventory file location, and pynetbox api variables.
- 6. Run the script:
+ 6. Run the script and follow the prompts:
 > python3.8 nb_int_importer.py
 
 ## Other things
