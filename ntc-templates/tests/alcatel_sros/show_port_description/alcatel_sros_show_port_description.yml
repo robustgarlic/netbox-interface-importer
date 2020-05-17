@@ -1,0 +1,6 @@
+---
+parsed_sample:
+  - port: "1/1/1"
+    description: "test link"
+  - interface: "1/1/2"
+    port: "10/100/Gig Ethernet SFP"

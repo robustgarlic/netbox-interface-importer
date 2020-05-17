@@ -1,0 +1,20 @@
+[
+  { "host": "TEST-ALCATEL-1",
+    "device_type": "alcatel_sros"
+  },
+  { "host": "TEST-ALCATEL-2",
+    "device_type": "alcatel_sros"
+  },
+  { "host": "TEST-CISCO-1",
+    "device_type": "cisco_ios"
+  },
+  { "host": "TEST-CISCO-2",
+    "device_type": "cisco_ios"
+  },
+  { "host": "TEST-JUNIPER-1",
+    "device_type": "juniper_junos"
+  },
+  { "host": "TEST-JUNIPER-2",
+    "device_type": "juniper_junos"
+  }
+]

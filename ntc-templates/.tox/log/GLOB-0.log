@@ -1,0 +1,786 @@
+action: GLOB, msg: packaging
+cwd: /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates
+cmd: /home/kerwbstomp/Documents/networkautomationscripts/venv/bin/python setup.py sdist --formats=zip --dist-dir /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox/dist
+running sdist
+running egg_info
+creating lib/ntc_templates.egg-info
+writing lib/ntc_templates.egg-info/PKG-INFO
+writing dependency_links to lib/ntc_templates.egg-info/dependency_links.txt
+writing requirements to lib/ntc_templates.egg-info/requires.txt
+writing top-level names to lib/ntc_templates.egg-info/top_level.txt
+writing manifest file 'lib/ntc_templates.egg-info/SOURCES.txt'
+reading manifest file 'lib/ntc_templates.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'lib/ntc_templates.egg-info/SOURCES.txt'
+running check
+creating ntc_templates-1.4.1
+creating ntc_templates-1.4.1/lib
+creating ntc_templates-1.4.1/lib/ntc_templates
+creating ntc_templates-1.4.1/lib/ntc_templates.egg-info
+creating ntc_templates-1.4.1/lib/ntc_templates/templates
+copying files to ntc_templates-1.4.1...
+copying CHANGELOG -> ntc_templates-1.4.1
+copying MANIFEST.in -> ntc_templates-1.4.1
+copying README.md -> ntc_templates-1.4.1
+copying pyproject.toml -> ntc_templates-1.4.1
+copying setup.py -> ntc_templates-1.4.1
+copying lib/ntc_templates/__init__.py -> ntc_templates-1.4.1/lib/ntc_templates
+copying lib/ntc_templates/parse.py -> ntc_templates-1.4.1/lib/ntc_templates
+copying lib/ntc_templates.egg-info/PKG-INFO -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates.egg-info/SOURCES.txt -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates.egg-info/dependency_links.txt -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates.egg-info/not-zip-safe -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates.egg-info/requires.txt -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates.egg-info/top_level.txt -> ntc_templates-1.4.1/lib/ntc_templates.egg-info
+copying lib/ntc_templates/templates/alcatel_aos_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/alcatel_sros_oam_mac-ping.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/alcatel_sros_show_router_bgp_routes_vpn-ipv4.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/alcatel_sros_show_service_id_base.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_bash_df_-h.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_dir_flash.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_boot-config.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_clock.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_environment_cooling.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_environment_temperature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_hostname.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_interfaces_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_interfaces_transceiver.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_interfaces_transceiver_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_access-lists.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_bgp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_bgp_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_helper-address.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_ospf_database.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_ospf_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_ip_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_isis_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_lldp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_lldp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_mac_address-table.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_mac_security_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_mac_security_mka_counters.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_mac_security_participants_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_mlag.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_module.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_reload_cause.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_snmp_community.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/arista_eos_show_vrf.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/aruba_os_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/aruba_os_show_ip_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/aruba_os_show_ipv6_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_interface_name.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_logging_config.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_mac-address-table.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_mlt.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_mlt_all-members.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_sys-info.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_ers_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/avaya_vsp_show_software.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_interfaces_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_lag_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_lldp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_lldp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_mac-address.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_metro.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_monitor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_running-config_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_span.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_topo.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_trunk.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_fastiron_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_interfaces_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_lag_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_lldp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_metro.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_monitor_actual.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_running-config_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_running-config_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_span.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/brocade_netiron_show_topo.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_fw_stat.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_arp_dynamic_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_asset_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_dns.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_domainname.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_interfaces_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_ipv6_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_lom.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_ntp_servers.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/checkpoint_gaia_show_version_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_chassis_show_temperature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_port_show.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_rstp_show.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_software_show.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_ssh_server_show_key.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ciena_saos_vlan_show.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_dir.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_ping.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_access-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_asp_drop.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_asp_table_vpn-context_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_crypto_ikev1_sa_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_crypto_ipsec_sa.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_failover.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_interface_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_license_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_logging.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_name.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_nat.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_object-group_network.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_resource_usage.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_running-config_crypto_ikev1.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_running-config_crypto_map.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_running-config_ipsec.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_running-config_object_network.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_running-config_tunnel-group.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb_anyconnect.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb_detail_l2l.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_asa_show_xlate.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_dir.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_access-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_adjacency_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_aliases.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_archive.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_authentication_sessions.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_boot.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_capability_feature_routing.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_cdp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_cdp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_clock.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_controller_t1.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_dmvpn.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_dot1x_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_environment_power_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_environment_temperature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_etherchannel_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_hosts_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_interface_transceiver.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_interfaces_description.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_interfaces_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_interfaces_switchport.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_access-lists.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_bgp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_bgp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_bgp_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_device_tracking_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_eigrp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_eigrp_topology.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_flow_toptalkers.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_mroute.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database_network.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database_router.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_ospf_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_ospf_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_prefix-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_route_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ip_source_binding.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ipv6_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_ipv6_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_isdn_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_isis_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_license.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_lldp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_lldp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_logging.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_mac-address-table.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_module.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_module_online_diag.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_module_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_module_submodule.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_mpls_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_platform_diag.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_power_available.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_power_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_power_supplies.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_processes_cpu.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_processes_memory_sorted.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_redundancy.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_route-map.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_running-config_partition_access-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_running-config_partition_route-map.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_snmp_community.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_snmp_user.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_spanning-tree.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_standby.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_standby_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_switch_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_switch_detail_stack_ports.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_tacacs.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_vrf.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_ios_show_vtp_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_access-lists.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_cdp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_cdp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_clock.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_configuration_session_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_cts_interface_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_cts_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_environment_temperature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_environments.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_feature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_fex.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_fex_id.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_flogi_database.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_forwarding_ipv4_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_hostname.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interface_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interface_transceiver.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interface_transceiver_details.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_interfaces_switchport.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_arp_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_bgp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_summary_vrf.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_community-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_dhcp_relay_address.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_ospf_database.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_ospf_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ip_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_ipv6_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_l2rib_internal_permanently-frozen-list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_lldp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_lldp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_mac_address-table.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_module.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_port-channel_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_processes_cpu.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_route-map.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_vdc.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_vpc.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_vrf.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_nxos_show_vrf_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_s300_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_802.11a.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_802.11a_cleanair_config.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_advanced_802.11a_channel.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_ap_config_general.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_ap_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_band-select.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_cdp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_client_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_exclusionlist.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_interface_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_mobility_sum.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_rf-profile_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_sysinfo.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_wlc_ssh_show_wlan_sum.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_controller_fabric_health.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_environment_fan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_environment_power.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_inventory.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_platform.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_admin_show_vm.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_asic-errors_all_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_bfd_sessions.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_bgp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_bgp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_bgp_vrf_all_ipv4_unicast_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_cdp_neighbors_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_cef_drops_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_configuration_commit_list.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controller_fabric_plane_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_HundredGigabitEthernet.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_all_phy.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_drops_egress_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_drops_ingress_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_errors_egress_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_errors_ingress_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_dhcp_ipv4_proxy_binding.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_drops_np_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_hsrp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_interfaces_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_ip_bgp_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_ip_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_ip_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_ipv6_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_isis_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_lldp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_lpts_pifib_hardware_police_location.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_mpls_ldp_neighbor_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_ospf_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_pim_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_processes_cpu.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_redundancy_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_rsvp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/cisco_xr_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/dell_force10_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/dell_force10_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/dell_force10_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/dell_force10_show_vlan_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/fortinet_fortios_get_router_info_bgp_summary.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/fortinet_fortios_get_system_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/fortinet_fortios_get_system_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_clock.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_counters_bound_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_device_manuinfo.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_ip_interface.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_ip_routing-table.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_lldp_neighbor-information_verbose.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_mac-address.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_comware_display_vlan_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_lldp_info_remote-device.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_lldp_info_remote-device_detail.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_mac-address.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_system.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_tech_buffers.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_trunks.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/hp_procurve_show_vlans.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/huawei_vrp_display_interface_brief.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/huawei_vrp_display_lldp_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/huawei_vrp_display_temperature.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/huawei_vrp_display_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/index -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_arp_no-resolve.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_chassis_cluster_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_chassis_cluster_status.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_chassis_firmware.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_isis_adjacency.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_ospf_neighbor.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_junos_show_version.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/juniper_screenos_get_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_arp_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_counter_global.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_high-availability_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_interface_hardware.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_interface_logical.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_jobs_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_mac_all.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_running_nat-policy.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_running_security-policy.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/paloalto_panos_show_system_info.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ruckus_fastiron_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ubiquiti_edgeswitch_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/ubiquiti_edgeswitch_show_vlan.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/vmware_nsxv_show_ip_bgp_neighbors.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/vmware_nsxv_show_ip_route.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/vyatta_vyos_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/vyatta_vyos_show_interfaces.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+copying lib/ntc_templates/templates/watchguard_firebox_show_arp.textfsm -> ntc_templates-1.4.1/lib/ntc_templates/templates
+Writing ntc_templates-1.4.1/setup.cfg
+creating /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox/dist
+creating '/home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox/dist/ntc_templates-1.4.1.zip' and adding 'ntc_templates-1.4.1' to it
+adding 'ntc_templates-1.4.1'
+adding 'ntc_templates-1.4.1/lib'
+adding 'ntc_templates-1.4.1/setup.cfg'
+adding 'ntc_templates-1.4.1/pyproject.toml'
+adding 'ntc_templates-1.4.1/setup.py'
+adding 'ntc_templates-1.4.1/CHANGELOG'
+adding 'ntc_templates-1.4.1/MANIFEST.in'
+adding 'ntc_templates-1.4.1/README.md'
+adding 'ntc_templates-1.4.1/PKG-INFO'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info'
+adding 'ntc_templates-1.4.1/lib/ntc_templates'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/top_level.txt'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/SOURCES.txt'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/not-zip-safe'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/dependency_links.txt'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/requires.txt'
+adding 'ntc_templates-1.4.1/lib/ntc_templates.egg-info/PKG-INFO'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/parse.py'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/__init__.py'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_counter_global.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_advanced_802.11a_channel.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_ip_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_lldp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_power_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_running_security-policy.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_running-config_partition_access-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_exclusionlist.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_power_supplies.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_arp_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_metro.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_domainname.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_access-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb_anyconnect.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_environment_cooling.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_lldp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_hosts_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_topo.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_license.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_port_show.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_interfaces_transceiver_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_nat.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_adjacency_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_asp_drop.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_processes_cpu.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_ap_config_general.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/huawei_vrp_display_temperature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_lldp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_jobs_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_environment_power_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_ipv6_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_ssh_server_show_key.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/vmware_nsxv_show_ip_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_bgp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_clock.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_eigrp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_fex.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_boot.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_dir.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_clock.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_fw_stat.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_interface_name.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_route-map.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_bfd_sessions.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_dot1x_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_drops_np_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_flow_toptalkers.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_access-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_client_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_flogi_database.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_ping.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_drops_egress_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_ipv6_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_mobility_sum.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_logging_config.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_bgp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_drops_ingress_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_access-lists.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_cef_drops_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_standby_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_screenos_get_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_all_phy.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_running-config_object_network.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_bgp_vrf_all_ipv4_unicast_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_hostname.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_aliases.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_vrf.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_chassis_cluster_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_ospf_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_arp_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_cdp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ubiquiti_edgeswitch_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/fortinet_fortios_get_system_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_source_binding.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_cdp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_mroute.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_redundancy_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_mac-address.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_mac_security_mka_counters.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_platform_diag.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_processes_cpu.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_bgp_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_device_tracking_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_tacacs.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_mac-address-table.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_boot-config.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_vlan_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_mac_address-table.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ipv6_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ipv6_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_ospf_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_snmp_community.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_archive.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/fortinet_fortios_get_router_info_bgp_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_cdp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_interface_logical.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_bgp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_configuration_session_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_controller_t1.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_bgp_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_controller_fabric_health.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_sysinfo.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_dir_flash.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_reload_cause.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_arp_no-resolve.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/aruba_os_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_counters_bound_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_running-config_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_l2rib_internal_permanently-frozen-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_802.11a.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_bash_df_-h.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_mlag.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_helper-address.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_chassis_cluster_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_access-lists.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_span.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_running-config_crypto_map.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_interfaces_description.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_interface_transceiver.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_span.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_cts_interface_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database_router.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/alcatel_sros_oam_mac-ping.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_tech_buffers.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_interfaces_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_running-config_partition_route-map.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_ospf_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_vm.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/dell_force10_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_interfaces_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_vrf_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_switch_detail_stack_ports.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_platform.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_module_online_diag.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_running-config_ipsec.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_ospf_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_errors_egress_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_mlt.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_interface_hardware.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_mac-address.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_name.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_interfaces_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_rsvp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_high-availability_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ipv6_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_ospf_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_ip_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_dmvpn.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_band-select.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/alcatel_sros_show_router_bgp_routes_vpn-ipv4.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/alcatel_aos_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_logging.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_lldp_neighbor-information_verbose.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_vpc.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_community-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_mac_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_software_show.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_module_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interface_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_device_manuinfo.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_ip_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_lldp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_vlans.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb_detail_l2l.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_ip_routing-table.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_etherchannel_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_crypto_ikev1_sa_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_bgp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/huawei_vrp_display_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_vlan_show.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_fex_id.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/alcatel_sros_show_service_id_base.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/aruba_os_show_ip_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_environment_temperature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_ntp_servers.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_lag_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database_network.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_dir.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_asset_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_topo.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/vyatta_vyos_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_running-config_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_interface_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_mac-address.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_summary_vrf.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_mac_security_interface.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_route-map.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_bgp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_metro.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_mpls_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_vrf.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_license_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_resource_usage.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_crypto_ipsec_sa.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_system.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_cdp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_isis_adjacency.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_pim_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_lldp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_forwarding_ipv4_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_eigrp_topology.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_s300_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/vyatta_vyos_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_running_nat-policy.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_dhcp_ipv4_proxy_binding.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interface_transceiver.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_lldp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_standby.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_cdp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_vtp_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_environments.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_mac-address-table.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_environment_fan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/juniper_junos_show_chassis_firmware.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_ospf_database.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/dell_force10_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_vrf.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_interfaces_switchport.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_switch_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_lpts_pifib_hardware_police_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_redundancy.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/vmware_nsxv_show_ip_bgp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_isis_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_lldp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_isis_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ruckus_fastiron_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_interfaces_transceiver.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_lldp_info_remote-device.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_capability_feature_routing.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_cdp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ubiquiti_edgeswitch_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_logging.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_lag_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_ospf_database.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_running-config_tunnel-group.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_lldp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/huawei_vrp_display_version.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_hsrp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_access-lists.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_clock.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_monitor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_trunk.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controller_fabric_plane_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_module.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_lldp_info_remote-device_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_interfaces.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_bgp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_environment_temperature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_ospf_database.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_monitor_actual.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_spanning-tree.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/fortinet_fortios_get_system_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/dell_force10_show_vlan_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_failover.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_fabric_fia_errors_ingress_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_module.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_running-config_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_object-group_network.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_authentication_sessions.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_module.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_asp_table_vpn-context_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_dns.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_rf-profile_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_vdc.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interface_transceiver_details.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_mac_address-table.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/watchguard_firebox_show_arp.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_lldp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_mpls_ldp_neighbor_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_prefix-list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_isdn_status.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_mac_security_participants_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_processes_cpu.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_comware_display_clock.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_asic-errors_all_location.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_ip_route.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_hostname.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_interfaces_switchport.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_power_available.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_bgp_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_interfaces_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_wlan_sum.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_snmp_user.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_802.11a_cleanair_config.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/hp_procurve_show_trunks.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_rstp_show.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_snmp_community.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/index'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_version_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_ap_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_ospf_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_controllers_HundredGigabitEthernet.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_netiron_show_interfaces_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_wlc_ssh_show_interface_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/huawei_vrp_display_lldp_neighbor.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_port-channel_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_running-config_crypto_ikev1.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_feature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_lom.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_configuration_commit_list.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/arista_eos_show_environment_temperature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_xlate.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_mlt_all-members.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_cts_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/ciena_saos_chassis_show_temperature.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/aruba_os_show_ipv6_interface_brief.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/brocade_fastiron_show_lldp_neighbors_detail.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_module_submodule.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_isis_neighbors.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/paloalto_panos_show_system_info.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_vsp_show_software.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_processes_memory_sorted.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/dell_force10_show_vlan.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/avaya_ers_show_sys-info.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_ios_show_ip_route_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_show_ip_bgp_summary.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_interfaces_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_inventory.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_xr_admin_show_environment_power.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_nxos_show_ip_dhcp_relay_address.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/checkpoint_gaia_show_arp_dynamic_all.textfsm'
+adding 'ntc_templates-1.4.1/lib/ntc_templates/templates/cisco_asa_show_vpn-sessiondb.textfsm'
+removing 'ntc_templates-1.4.1' (and everything under it)

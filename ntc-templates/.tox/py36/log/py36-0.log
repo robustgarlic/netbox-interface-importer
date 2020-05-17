@@ -1,0 +1,7 @@
+action: py36, msg: getenv
+cwd: /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox
+cmd: /home/kerwbstomp/Documents/networkautomationscripts/venv/bin/python -m virtualenv --no-download --python /usr/bin/python3.6 py36
+created virtual environment CPython3.6.9.final.0-64 in 284ms
+  creator CPython3Posix(dest=/home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox/py36, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/kerwbstomp/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

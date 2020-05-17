@@ -1,0 +1,5 @@
+action: py38, msg: getenv
+cwd: /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox
+cmd: /home/kerwbstomp/Documents/networkautomationscripts/venv/bin/python -m virtualenv --no-download --python /home/kerwbstomp/Documents/networkautomationscripts/venv/bin/python py38
+PermissionError(13, 'Permission denied')
+RuntimeError: seed failed due to failing to download wheels pip

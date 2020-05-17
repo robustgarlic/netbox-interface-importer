@@ -1,0 +1,9 @@
+Value INTERFACE (\S+)
+Value DESCRIPTION (.*?)
+
+Start
+ ^=+$$
+ ^-+$$
+ ^Port\s+Descriptions\s+on\s+Slot\s+1
+ ^Port\s+Id\s+Description
+ ^${INTERFACE}\s+${DESCRIPTION}$$ -> Record

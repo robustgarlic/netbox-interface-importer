@@ -1,0 +1,81 @@
+action: py36, msg: installpkg
+cwd: /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates
+cmd: /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates/.tox/py36/bin/pip install '.[dev]' --exists-action w .tox/.tmp/package/1/ntc_templates-1.4.1.zip
+Processing /home/kerwbstomp/Documents/networkautomationscripts/venv/netbox-interface-importer/ntc-templates
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Processing ./.tox/.tmp/package/1/ntc_templates-1.4.1.zip
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting textfsm>=1.1.0
+  Using cached textfsm-1.1.0-py2.py3-none-any.whl (37 kB)
+Collecting pytest; extra == "dev"
+  Downloading pytest-5.4.2-py3-none-any.whl (247 kB)
+Collecting ruamel.yaml; extra == "dev"
+  Downloading ruamel.yaml-0.16.10-py2.py3-none-any.whl (111 kB)
+Collecting PyYAML; extra == "dev"
+  Downloading PyYAML-5.3.1.tar.gz (269 kB)
+Collecting black; extra == "dev"
+  Downloading black-19.10b0-py36-none-any.whl (97 kB)
+Collecting yamllint; extra == "dev"
+  Downloading yamllint-1.23.0-py2.py3-none-any.whl (58 kB)
+Collecting six
+  Using cached six-1.14.0-py2.py3-none-any.whl (10 kB)
+Collecting future
+  Using cached future-0.18.2.tar.gz (829 kB)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting py>=1.5.0
+  Using cached py-1.8.1-py2.py3-none-any.whl (83 kB)
+Collecting packaging
+  Using cached packaging-20.3-py2.py3-none-any.whl (37 kB)
+Collecting importlib-metadata>=0.12; python_version < "3.8"
+  Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+Collecting more-itertools>=4.0.0
+  Downloading more_itertools-8.2.0-py3-none-any.whl (43 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+Collecting ruamel.yaml.clib>=0.1.2; platform_python_implementation == "CPython" and python_version < "3.9"
+  Downloading ruamel.yaml.clib-0.2.0-cp36-cp36m-manylinux1_x86_64.whl (548 kB)
+Collecting pathspec<1,>=0.6
+  Downloading pathspec-0.8.0-py2.py3-none-any.whl (28 kB)
+Collecting typed-ast>=1.4.0
+  Downloading typed_ast-1.4.1-cp36-cp36m-manylinux1_x86_64.whl (737 kB)
+Collecting click>=6.5
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting toml>=0.9.4
+  Using cached toml-0.10.0-py2.py3-none-any.whl (25 kB)
+Collecting regex
+  Downloading regex-2020.5.7-cp36-cp36m-manylinux2010_x86_64.whl (675 kB)
+Collecting appdirs
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting pyparsing>=2.0.2
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Building wheels for collected packages: ntc-templates, PyYAML, future
+  Building wheel for ntc-templates (PEP 517): started
+  Building wheel for ntc-templates (PEP 517): finished with status 'done'
+  Created wheel for ntc-templates: filename=ntc_templates-1.4.1-py3-none-any.whl size=234702 sha256=db24738e5830b1e3287d8ead89cc0dcd6b79f658072cda0a4b623a797f452e57
+  Stored in directory: /home/kerwbstomp/.cache/pip/wheels/57/f1/77/9224c3979085f9c22c8a0b9d2cc06695b76fac7ffa417d48b9
+  Building wheel for PyYAML (setup.py): started
+  Building wheel for PyYAML (setup.py): finished with status 'done'
+  Created wheel for PyYAML: filename=PyYAML-5.3.1-cp36-cp36m-linux_x86_64.whl size=44621 sha256=59275064da24a6db7c9988cb6b6b4cf78fe387dc63bb1b4e33045f3bcea0066a
+  Stored in directory: /home/kerwbstomp/.cache/pip/wheels/e5/9d/ad/2ee53cf262cba1ffd8afe1487eef788ea3f260b7e6232a80fc
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491058 sha256=4865a26f2fb93e046f99996e9886be35b65e1db479f2303b8cdbbabddff0afc3
+  Stored in directory: /home/kerwbstomp/.cache/pip/wheels/6e/9c/ed/4499c9865ac1002697793e0ae05ba6be33553d098f3347fb94
+Successfully built ntc-templates PyYAML future
+Installing collected packages: six, future, textfsm, zipp, importlib-metadata, pluggy, py, pyparsing, packaging, more-itertools, attrs, wcwidth, pytest, ruamel.yaml.clib, ruamel.yaml, PyYAML, pathspec, typed-ast, click, toml, regex, appdirs, black, yamllint, ntc-templates
+Successfully installed PyYAML-5.3.1 appdirs-1.4.4 attrs-19.3.0 black-19.10b0 click-7.1.2 future-0.18.2 importlib-metadata-1.6.0 more-itertools-8.2.0 ntc-templates-1.4.1 packaging-20.3 pathspec-0.8.0 pluggy-0.13.1 py-1.8.1 pyparsing-2.4.7 pytest-5.4.2 regex-2020.5.7 ruamel.yaml-0.16.10 ruamel.yaml.clib-0.2.0 six-1.14.0 textfsm-1.1.0 toml-0.10.0 typed-ast-1.4.1 wcwidth-0.1.9 yamllint-1.23.0 zipp-3.1.0
