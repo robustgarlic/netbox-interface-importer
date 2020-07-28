@@ -1,4 +1,7 @@
 ## Netbox Interface Importer
+
+<em>Tested on Netbox Version v2.8.6</em>
+
 Netbox Interface Importer is a python script that utilizes the popular [netmiko](https://github.com/ktbyers/netmiko) along with [ntc-templates](https://github.com/networktocode/ntc-templates) to import interfaces and their descriptions in bulk, directly from the device to [Netbox](https://github.com/netbox-community/netbox). Like many, a source of truth for IPAM/DCIM has been implemented long after the establishment of a network. This script helps take away the pain of manually going through interfaces and adding them and their descriptions one-by-one on each device in Netbox. Currently there is no way to do this in bulk without utilizing the API. 
 
 Currently this gathers Interface and Description on the following OS's:
