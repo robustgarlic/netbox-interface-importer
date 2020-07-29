@@ -46,10 +46,10 @@ For those who would like some guidance on setting on an environment for this jus
 > python3.8 nb_int_importer.py
 
 ## Other things
-I edited the existing "show interfaces" text-fsm template for the juniper_junos command, I added interfaces to it. I also created a new template for alcatel_sros "show interfaces descriptions".  This are not included in the ntc-templates git clone, so just copy those over from the templates in this repository into the correct locations per their readme.md on their github. 
+I edited the existing "show interfaces" text-fsm template for the juniper_junos command, I added interfaces to it. I also created a new template for alcatel_sros "show interfaces descriptions".  These are not included in the ntc-templates git clone, so just copy those over from the templates in this repository into the correct locations per their readme.md on their github. 
 All interfaces are inputted as 1G, whether it is or not, much more simpler to just edit it in netbox after its added.
 
-Due to the nature of how we do virtual chassis's and their naming conventions, a separate input is gathered from the host to match the netbox device name. This can allows you to take the output of the host you logged into and place that info in a different device on netbox, not an intended feature but it can be done.  It also causes an issue where it will put all the interfaces into the master(usually) you decide too. Virtual Chassis's will collapse all interfaces into the master and number them accordingly based on the other nodes, so each device should be numbered according to the Virtual Chassis and then all can be viewed from the Master. 
+Due to the nature of how I/WE do virtual chassis's and their naming conventions in netbox, a separate input is gathered from the host to match the netbox device name. This allows you to take the output of the host you logged into and place that info in a different device on netbox, not an intended feature but it can be done.  It also causes an issue where it will put all the interfaces into the master(usually) you decide. Virtual Chassis's will collapse all interfaces into the master and number them accordingly based on the other nodes, so each device should be numbered according to the Virtual Chassis and then all can be viewed from the Master. 
 
 
 ## TODO
