@@ -11,7 +11,7 @@ future==0.18.2
 idna==2.9
 netmiko==3.1.0
 packaging==20.3
-paramiko==2.7.1
+paramiko==2.10.1
 pluggy==0.13.1
 py==1.8.1
 pycparser==2.20
